@@ -1,0 +1,25 @@
+{
+  "name": "yiier/yii2-seo",
+  "description": "Library for working with SEO parameters of models",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "seo"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "forecho",
+      "email": "caizhenghai@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "yiier\\seo\\": "src"
+    }
+  }
+}
